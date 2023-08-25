@@ -2,7 +2,7 @@
 
 
 const button = document.getElementById("btn");
-const container = document.getElementById("container");
+const container = document.getElementById("weatherData");
 
 button.addEventListener("click",() => {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=e467712b257e418838be97cc881a71de')
