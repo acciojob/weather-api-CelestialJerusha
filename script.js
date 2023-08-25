@@ -11,6 +11,6 @@ button.addEventListener("click",() => {
          container.innerHTML += `<div>Current weather in London:${data.weather[0].main}</div>`;;
          })
 
-	container.appendChild(div);
+	//container.appendChild(div);
 })
 
